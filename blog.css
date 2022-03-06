@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;	padding: 10px;
+	text-align: center;
+
+}
+header , footer{
+	padding: 30px;
+	background: pink;
+	color:black;
+	border-radius: 0px;
+}
+section{
+	width: 50%;
+	float: left;
+	height: 400px;
+	background: grey;
+}
+.right{
+	width: 50%;
+	float: left;
+	height: 400px;
+	background: grey;
+	border-left: 2px solid red;
+
+}
+.main{
+	border-radius: 10px;
+}
+.main{
+	margin: 0px 0px;
+}
+.main::after{
+	content: "";
+	clear: both;
+	display: table;
+}

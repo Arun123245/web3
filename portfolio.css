@@ -1,0 +1,23 @@
+
+body{ margin:0; }
+header{}
+header div:first-child{padding: 4%; background: grey; width:42%; float:left;}
+header div:nth-child(2){padding: 4%;background:pink; width: 42%; float: left;}
+.clear{clear:both;}
+
+nav{background: purple}
+nav ul{margin: 5px; padding: 0;}
+nav ul li{
+	list-style: none; float: left; margin: 0.5%;padding: 1%;background: white
+}
+nav ul li a {text-decoration: none;display: gray; width: 100%;}
+.nav ul li:hover{background:pink;}
+ 
+ section{}
+section div:first-child{ padding: 4%; background: gray; width: 42%; float: left;}
+section div:nth-child(2){ padding: 4%; background: purple; width: 42%; float: left;}
+
+section{}
+footer{ padding: 4%; background: pink; margin-top: 0.5%; width: 92%; 
+	text-align: center;
+}
